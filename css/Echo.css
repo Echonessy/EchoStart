@@ -1,0 +1,18 @@
+/**********************************Creat By Echonessy*******************************/
+body,html{background: #ecedf0;font-family: 'microsoft yahei';}
+.Echonessy{overflow: hidden;width: 700px;margin: 40px auto; background: white;padding: 60px;box-sizing: border-box;background: white;border-radius: 10px;}
+.EchoBox,
+.EchoBox>li,
+.Title,
+.RateValue{float: left;width: 100%;box-sizing: border-box;}
+.EchoBox>li>h2{float: left;width: 100%;line-height: 40px;font-size: 20px;text-align: center;}
+.RateValue>li{width: 30px;height: 30px;float: left;margin-right: 10px;}
+.Value{float: left;width: 100%;line-height: 30px;font-size: 18px;text-align: center;}
+.Title{font-size: 24px;color: #58C1E4;text-align: center;line-height: 100px;}
+/*星级*/
+/*0级*/
+.Start0{background: url("../img/start0.png")0 0 no-repeat;background-size: 100%;}
+/*1级*/
+.Start1{background: url("../img/start1.png")0 0 no-repeat;background-size: 100%;}
+/*0.5级*/
+.Start2{background: url("../img/start2.png")0 0 no-repeat;background-size: 100%;}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>星评</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Echo.css">
+    <script src="js/EchoStart.js"></script>
+</head>
+<body>
+<div class="Echonessy">
+    <h2 class="Title">EchoStart Creat By Echonessy</h2>
+    <ul class="EchoBox">
+        <li>
+            <h2>根据值确定星级评分</h2>
+            <span class="Value">评分3.5</span>
+            <div id="demo1"></div>
+        </li>
+        <li>
+            <h2>根据值确定星级评分</h2>
+            <span class="Value">评分2</span>
+            <div id="demo2"></div>
+        </li>
+        <li>
+            <h2>星级操作</h2>
+            <div id="demo3"></div>
+        </li>
+    </ul>
+</div>
+</body>
+<script>
+    var RateValue1 = new EchoStart();
+    RateValue1.config({
+        'ele': '#demo1', //绑定的DOM
+        'type': 1, //数据源类型  1表示根据值展示星级评分 2表示星级操作
+        'data': 3.5 //数据源
+    });
+    var RateValue2 = new EchoStart();
+    RateValue2.config({
+        'ele': '#demo2', //绑定的DOM
+        'type': 1, //数据源类型  1表示根据值展示星级评分 2表示星级操作
+        'data': 2 //数据源
+    });
+    var RateEvent = new EchoStart();
+    RateEvent.config({
+        'ele': '#demo3',//绑定的DOM
+        'type':2, //数据源类型  1表示根据值展示星级评分 2表示星级操作
+        'link':'click'//事件名，参数值选项 hover touch click 可以同时、单独存在；
+    });
+</script>
+</html>
